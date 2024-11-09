@@ -1,0 +1,18 @@
+###Delete
+DELETE http://localhost:3003/api/blogs/672f99086e8d653b6ff334b6 HTTP/1.1
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IjEyM2Fuc29uIiwiaWQiOiI2NzJmOTBlMDVmM2ZjYjU2ZmZhNmUzMGMiLCJpYXQiOjE3MzExNzI0Njl9.FDInqzW6LFmFV3jlqBrXjk5mCAM3uWysMFO1VY4SnjY
+
+
+###
+POST http://localhost:3003/api/blogs HTTP/1.1
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IjEyM2Fuc29uIiwiaWQiOiI2NzJmOTBlMDVmM2ZjYjU2ZmZhNmUzMGMiLCJpYXQiOjE3MzExNzQ1NTN9.0Cgb2MSCiONpu_Nqw-22guhhetTHhHqIhz4wd19EZ5s
+
+{
+  "title": "last blog",
+  "author": "Anson lee",
+  "url": "http://anson.com/my-new-blog",
+  "likes": 2803,
+  "userId": "672f90e05f3fcb56ffa6e30c"
+}
+
