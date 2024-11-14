@@ -1,0 +1,18 @@
+###Delete
+DELETE http://localhost:3003/api/blogs/672f99086e8d653b6ff334b6 HTTP/1.1
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IjEyM2Fuc29uIiwiaWQiOiI2NzJmOTBlMDVmM2ZjYjU2ZmZhNmUzMGMiLCJpYXQiOjE3MzExNzI0Njl9.FDInqzW6LFmFV3jlqBrXjk5mCAM3uWysMFO1VY4SnjY
+
+
+###
+POST http://localhost:3003/api/blogs HTTP/1.1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFuc29uc3lsZWUiLCJpZCI6IjY3MzBiNmY5MjJkOTdmYzVjNjg1Yjk4NCIsImlhdCI6MTczMTI0NTgzM30.KdrJzN5jlhR_rG5nj7LsgNnGweMSmPTDQj7fAp2rk7o
+
+{
+  "title": "part5 blog",
+  "author": "Anson lee",
+  "url": "http://hifhdifhid.com/my-new-blog",
+  "likes": 1000,
+  "userId": "6730b6f922d97fc5c685b984"
+}
+
